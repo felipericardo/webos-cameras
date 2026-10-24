@@ -1,10 +1,10 @@
 {
-  "id": "tld.my.camtest",
-  "version": "0.0.9",
+  "id": "tld.my.cameras",
+  "version": "0.1.0",
   "vendor": "tld.my",
   "type": "web",
   "main": "index.html",
-  "title": "Cam Test",
+  "title": "Câmeras",
   "icon": "icon.png",
   "resolution": "1920x1080",
   "disableBackHistoryAPI": true,

@@ -3,8 +3,8 @@
 Camera viewer app for the rooted LG webOS TVs (homelab personal project): a 3x3 grid of the
 house cameras from go2rtc, with one camera live at a time and full-screen viewing.
 
-Still named "Cam Test" (`tld.my.camtest`) while it evolves; the id changes when it becomes the
-final "Câmeras" app.
+App id `tld.my.cameras`, title "Câmeras". Renamed from "Cam Test" (`tld.my.camtest`) on
+2026-10-24, now that it's the final app id.
 
 ## How it works
 
@@ -32,8 +32,8 @@ packaged into the IPK on build.
 Uses [webos-tools](https://github.com/felipericardo/webos-tools), checked out next to this repo.
 
 ```sh
-python3 -I ../webos-tools/build_ipk.py app dist/tld.my.camtest_<version>_all.ipk
-../webos-tools/install_ipk.sh <tv-ip> dist/tld.my.camtest_<version>_all.ipk --launch
+python3 -I ../webos-tools/build_ipk.py app dist/tld.my.cameras_<version>_all.ipk
+../webos-tools/install_ipk.sh <tv-ip> dist/tld.my.cameras_<version>_all.ipk --launch
 ```
 
 Bump `version` in `app/appinfo.json` for every install. The TV must be rooted (Homebrew
